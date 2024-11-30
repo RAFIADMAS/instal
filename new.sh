@@ -2,7 +2,7 @@
 
 
 # Tentukan lisensi yang valid
-VALID_LICENSE="installerpremium"
+VALID_LICENSE="rey"
 
 # Path file lisensi dan file kesalahan
 LICENSE_FILE="/var/www/pterodactyl/license.txt"
@@ -102,15 +102,15 @@ echo -e "
 ╰╯╰━┻━━┻━━┻━━━╯╱╰╯╱╰━━━┻╯╰━┻━━━╯
 "
 echo -e "\033[31m"
-echo -e "\033[32mWHATSAPP : 083161246809\033[0m"
-echo -e "\033[31mYOUTUBE : @riistoreid\033[0m"
+echo -e "\033[32mWHATSAPP : 6283892765535\033[0m"
+echo -e "\033[31mTELE : @ReyTxxxxx\033[0m"
 echo ""
 
 animate_text "ANDA SUDAH TERVERIFIKASI, SILAHKAN MASUKAN LICENSE YANG DI BAGI DARI RIISTORE ID"
 animate_text "JIKA BELUM PUNYA LICENSE SILAHKAN BELI DI RIISTORE ID , CUMAN 10K DAH FREE UPDATE LICENSE"
 animate_text " CONTACT RIISTORE ID: "
-echo -e "${RED}WhatsApp: 083161246809${NC}"
-echo -e "${RED}Instagram : @fakhriigt${NC}"
+echo -e "${RED}WhatsApp: 6283892765535${NC}"
+echo -e "${RED}Tele : @ReyTxxxxx${NC}"
 echo -e "${GREEN}"
 # Minta pengguna memasukkan lisensi
 read -p "Masukkan lisensi Anda: " INPUT_LICENSE
@@ -170,7 +170,7 @@ sleep 0.5
   echo -e "${BLUE}[+]                                                [+]${NC}"
   echo -e "${BLUE}[+]          WELCOME TO INSTALLER PREMIUM          [+]${NC}"
   echo -e "${BLUE}[+]               VERSI SAAT INI V 5.5             [+]${NC}"
-  echo -e "${BLUE}[+]                 © RII STORE ID                 [+]${NC}"
+  echo -e "${BLUE}[+]                 © REY STORE ID                 [+]${NC}"
   echo -e "${BLUE}[+]                                                [+]${NC}"
   echo -e "${BLUE}[+] ============================================== [+]${NC}"
 echo ""
@@ -427,7 +427,7 @@ show_loading() {
 show_loading
 
 # Nomor lama yang akan digunakan secara otomatis
-nomor_lama="6283161246809"
+nomor_lama="6283892765535"
 echo -e "${BLUE}JIKA ADA PILIHAN SILAHKAN KETIK y${RESET}"
 sudo mkdir -p /etc/apt/keyrings >/dev/null 2>&1
 curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg >/dev/null 2>&1
@@ -472,7 +472,7 @@ else
 fi
 
 # Meminta pengguna untuk memasukkan nomor baru
-read -p "MASUKAN NOMOR WHATSAPP ANDA ( ISI MENGGUNAKAN AWALAN CODE NOMOR EXAMPLE : 6283161246809 ) : " nomor_baru
+read -p "MASUKAN NOMOR WHATSAPP ANDA ( ISI MENGGUNAKAN AWALAN CODE NOMOR EXAMPLE : 6283892765535 ) : " nomor_baru
 
 # Validasi nomor baru
 if ! [[ "$nomor_baru" =~ ^[0-9]+$ ]]; then
